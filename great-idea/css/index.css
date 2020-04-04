@@ -151,9 +151,9 @@ footer {
 	justify-content: center;
 	margin-top: 8%;
 }
+/* Service page css */
 
 .serviceOne {
-	/* border:1px solid red; */
 	display: flex;
 	flex-direction: column;
 }
@@ -161,8 +161,7 @@ footer {
 .ServiceTwo {
 	margin: 2%;
 	width: 75%;
-	margin-left: 11%;
-	
+	margin-left: 11%;	
 }
 
 .serviceH1 {
@@ -170,7 +169,6 @@ footer {
 }
 
 .services-header-img{
-	border:1px solid red;
 	width: 80%;
 	margin-left: 11%;
 }
@@ -179,7 +177,6 @@ footer {
 	display:flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
-	/* width: 90%; */
 	border-top: 1px solid black;
 	padding-top: 2%;
 	margin-left: 11%;
@@ -206,6 +203,27 @@ footer {
 }
 
 .ServiceLast {
-	border:1px solid red;
-	
+	display: flex;
+	margin: 2%;
+	justify-content: space-evenly;
+	width: 98%;
+}
+
+.lastPartContent{
+	width: 37%;
+	margin-left: 2%;
+}
+
+.services-info-img{
+	margin-right: 4%;
+}
+
+ul {
+	margin-top: 6%;
+	margin-left: 3%;
+}
+
+ul li {
+	margin:2%;
+	list-style-type: square;
 }
