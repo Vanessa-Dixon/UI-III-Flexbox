@@ -151,3 +151,61 @@ footer {
 	justify-content: center;
 	margin-top: 8%;
 }
+
+.serviceOne {
+	/* border:1px solid red; */
+	display: flex;
+	flex-direction: column;
+}
+
+.ServiceTwo {
+	margin: 2%;
+	width: 75%;
+	margin-left: 11%;
+	
+}
+
+.serviceH1 {
+	font-size: 30px;
+}
+
+.services-header-img{
+	border:1px solid red;
+	width: 80%;
+	margin-left: 11%;
+}
+
+.ServiceMiddle{
+	display:flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	/* width: 90%; */
+	border-top: 1px solid black;
+	padding-top: 2%;
+	margin-left: 11%;
+	margin-right: 11%;
+	padding-bottom: 2%;
+	border-bottom: 1px solid black;
+	
+}
+
+.ServiceMiddleContent {
+	width: 45%; 
+	border: 1px solid black;
+	padding: 2%;
+	margin: 2%;
+	background: lightgrey;
+}
+
+.serviceButton{
+	border:1px solid black;
+	margin-left: 0%;
+	border-radius: 4px;
+	width: 38%;
+	margin-top:5%;
+}
+
+.ServiceLast {
+	border:1px solid red;
+	
+}
